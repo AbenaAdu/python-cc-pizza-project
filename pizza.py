@@ -12,3 +12,5 @@ print(num_two_dollar_slices)
 num_pizzas = len(toppings)
 print(num_pizzas)
 
+print("We sell" , num_pizzas ,"different kinds of pizza!")
+

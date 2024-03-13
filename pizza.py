@@ -32,3 +32,12 @@ pizza_and_prices = [[2, "pepperoni"],
 
 #Sorts pizza in ascending order of price
 pizza_and_prices.sort()
+
+#Displays the first pizza topping and price
+cheapest_pizza = pizza_and_prices[0]
+
+#Displays the most expensive pizza 
+priciest_pizza = pizza_and_prices[-1]
+
+#Removes the anchovies pizza
+pizza_and_prices.pop() 

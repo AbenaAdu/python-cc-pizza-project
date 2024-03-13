@@ -41,3 +41,10 @@ priciest_pizza = pizza_and_prices[-1]
 
 #Removes the anchovies pizza
 pizza_and_prices.pop() 
+
+#Inserted new pizza type
+pizza_and_prices.insert(4, [2.5, "peppers"])
+
+#The three lowest cost pizzas
+three_cheapest = pizza_and_prices[0:3]
+print(three_cheapest)
